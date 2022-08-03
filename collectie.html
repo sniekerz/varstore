@@ -6,66 +6,67 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/stylesheet.css" />
   </head>
   <body>
-    <div class="nav-bar container">
-      <header>
-        <div class="top-menu">
-          <div class="shopname">
-            <p class="header-title">VÅR</p>
-            <p class="header-items">Sierraden</p>
+    <div class="container">
+
+      <header class="menu">
+        <!-- NAAM BEDRIJF -->
+        <div class="secion-logo">
+          <h1 class="company-name"> <strong>VÅR</strong> Sierraden</p>
+        </div>
+        
+        <!-- MENU KNOPPEN -->
+        <div class="menu-items">
+          <div class="menu-button">
+            <img src="Images/Icons/Icon-Home.svg" alt="home button" onclick="location.href='index.html'">
           </div>
-          <div class="menu-items">
-            <img
-              src="Images/Icons/Icon-Home.svg"
-              alt="home button"
-              class="menu-button"
-              onclick="location.href='index.html'"
-            />
-            <img
-              src="Images/Icons/Icon-user.svg"
-              alt="user button"
-              class="menu-button"
-            />
-            <img
-              src="Images/Icons/Icon-Share.svg"
-              alt="share button"
-              class="menu-button"
-            />
-            <img
-              src="Images/Icons/Icon-Menu.svg"
-              alt="menu button"
-              class="menu-button"
-            />
+          <div class="menu-button">
+            <img src="Images/Icons/Icon-user.svg" alt="home button">
+          </div>
+          <div class="menu-button">
+            <img src="Images/Icons/Icon-Share.svg" alt="home button">
+          </div>
+          <div class="menu-button">
+            <img src="Images/Icons/Icon-Menu.svg" alt="home button">
           </div>
         </div>
       </header>
-    </div>
 
-    <div class="container">
-      <h1 class="page-title">Collectie Zomer 2022</h1>
-      <div class="products">
-        <div class="row-1 spacing">
-          <div class="item item-1 spacing" onclick="location.href='size.html'">
-            <p class="item-description">Prod 1</p>
+      <main class="main-content">
+        
+        <!-- PAGINA TITEL -->
+        <div class="pagina-titel">
+          <h1 class="pagina-titel">Collectie Zomer 2022</h1>
+        </div>
+
+        <!-- EERSTE PRODUCTRIJ -->
+        <div class="productrij-1">
+          <div class="item eerste" onclick="location.href='maat.html'">
+            <p class="product-tekst">Prod 1</p>
           </div>
-          <div class="item item-2 spacing" onclick="location.href='size.html'">
-            <p class="item-description">Prod 2</p>
+          <div class="item tweede" onclick="location.href='maat.html'">
+            <p class="product-tekst">Prod 2</p>
           </div>
         </div>
-        <div class="row-2 spacing">
-          <div class="item item-3 spacing" onclick="location.href='size.html'">
-            <p class="item-description">Prod 3</p>
+
+        <!-- TWEEDE PRODUCTRIJ -->
+        <div class="productrij-2">
+          <div class="item derde" onclick="location.href='maat.html'">
+            <p class="product-tekst">Prod 3</p>
           </div>
-          <div class="item item-4 spacing" onclick="location.href='size.html'">
-            <p class="item-description">Prod 4</p>
+          <div class="item vierde" onclick="location.href='maat.html'">
+            <p class="product-tekst">Prod 4</p>
           </div>
         </div>
-      </div>
-      <div class="logo">
-        <p class="logo-placeholder">Logo</p>
-      </div>
+
+        <!-- LOGO -->
+        <div class="logo-rond">
+          <p class="placeholder-logo">Logo</p>
+        </div>
+      </main>
+
     </div>
   </body>
 </html>

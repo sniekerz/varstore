@@ -1,0 +1,307 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.75rem;
+  margin: 0;
+  margin-top: 5rem;
+}
+
+main {
+  /* border: 1px solid red; */
+}
+
+/* ---------------------
+      TYPOGRAPHY  
+ ---------------------*/
+.company-name {
+  font-size: 1.25rem;
+  margin-top: 30px;
+  font-weight: 400;
+}
+
+.pagina-titel {
+  font-size: 1.25rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.product-tekst {
+  margin-top: 120px;
+}
+
+.placeholder-tekst {
+  padding-top: 7rem;
+}
+
+.bedrijfsnaam {
+  margin: 0;
+  margin-top: 4rem;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.slogan {
+  margin: 0;
+  margin-bottom: 4rem;
+  font-size: 1rem;
+}
+
+.omschrijving-titel {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.artikel-maat,
+.prijs {
+  text-align: center;
+  margin: 0;
+}
+
+.artikel-maat {
+  margin-top: 12px;
+}
+
+.afmeting-titel,
+.afmeting-cm {
+  font-size: 0.625rem;
+}
+
+.afmeting-cm {
+  margin: 0;
+}
+
+.afmeting-titel {
+  margin: 0;
+  margin-bottom: 0.4rem;
+}
+
+/* ---------------------
+      Layout  
+ ---------------------*/
+
+/* INDEX PAGINA */
+.main-content {
+  text-align: center;
+}
+
+.main-image {
+  width: 283px;
+  height: 151px;
+  margin: auto;
+  margin-top: 68px;
+  text-align: center;
+  background-color: #f4df20;
+  border-radius: 0.5rem;
+}
+
+.index-button-footer {
+  font-size: 0.75rem;
+  border: none;
+  width: 150px;
+  height: 54px;
+  background-color: #f4df20;
+  cursor: pointer;
+}
+/* COLLECTIE PAGINA */
+.container {
+  /* border: 1px solid magenta;  */
+  width: 375px;
+  height: 667px;
+  margin: auto;
+}
+
+.bedrijfsgegevens {
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  /* border: 1px solid blue; */
+  height: 80px;
+}
+
+.secion-logo {
+  /* border: 1px solid yellow; */
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-button {
+  cursor: pointer;
+}
+
+.productrij-1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 25px;
+}
+
+.productrij-2 {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 25px;
+}
+
+.item {
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.items {
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+}
+
+/* BESTELPAGINA */
+.product-content {
+  width: 350px;
+  /* border: 1px solid magenta; */
+  margin: auto;
+}
+
+.ketting,
+.armband {
+  background-color: #f4df20;
+}
+
+.rij-1,
+.rij-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.rij-1 {
+  margin-top: 27px;
+}
+.maat {
+  height: 50px;
+  width: 50px;
+  background-color: #f4df20;
+  border-radius: 0.5rem;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.maat-none {
+  height: 50px;
+  width: 50px;
+  background-color: #white;
+  border-radius: 0.5rem;
+}
+
+.maat:last-child {
+  margin-right: 0;
+}
+
+.maat-selectie {
+  display: flex;
+  margin-right: 8px;
+}
+
+.rij-1 {
+  margin-bottom: 12px;
+}
+
+.omschrijving {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tweede-rij {
+  margin-top: 9px;
+}
+
+.product-informatie {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8px;
+  margin-top: 4rem;
+}
+
+.maten-afmetingen {
+  display: flex;
+  justify-content: space-between;
+  width: 195px;
+  background-color: #f4df20;
+  padding-top: 8px;
+}
+
+.afmeting:first-child {
+  padding-left: 8px;
+}
+
+.afmeting:last-child {
+  padding-right: 8px;
+}
+/* ---------------------
+      MEDIAQUERRIES  
+ ---------------------*/
+
+/* ---------------------
+      PLACEHOLDERS  
+ ---------------------*/
+.eerste {
+  background: #f4df20;
+}
+
+.tweede {
+  background: #f4c620;
+}
+
+.derde {
+  background: #57f420;
+}
+
+.vierde {
+  background: #20cef4;
+}
+
+.logo-rond {
+  background-color: #f4df20;
+  margin: 0 auto;
+  margin-top: 2rem;
+  text-align: center;
+  width: 117px;
+  height: 117px;
+  border: 1px solid white;
+  border-radius: 100px;
+}
+
+.placeholder-logo {
+  margin-top: 45px;
+  font-size: 1.25rem;
+}
+
+.collectie-rond {
+  background-color: #f4df20;
+  text-align: center;
+  width: 96px;
+  height: 96px;
+  border: 1px solid white;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.placeholder-collectie {
+  margin-top: 35px;
+  font-size: 1.25rem;
+}
