@@ -4,6 +4,72 @@ body {
   font-size: 1.125rem;
 }
 
+/* ---------------------
+      TYPOGRAPHY  
+ ---------------------*/
+.page-title {
+  text-align: center;
+  margin: 5rem 0;
+}
+
+.item-description {
+  font-weight: 700;
+  margin-top: 250px;
+}
+/* ---------------------
+        LAYOUT  
+ ---------------------*/
+
+.products {
+  display: flex;
+  flex-direction: column;
+  height: 780px;
+  justify-content: space-between;
+}
+
+.row-1,
+.row-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row-2 {
+  display: flex;
+  margin-bottom: 5rem;
+}
+
+.item {
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 1rem;
+}
+
+.item-1 {
+  background: #f4df20;
+}
+
+.item-2 {
+  background: #f4c620;
+}
+
+.item-3 {
+  background: #57f420;
+}
+
+.item-4 {
+  background: #20cef4;
+}
+
+.logo {
+  background-color: #f4c620;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  border-radius: 125px;
+}
+
 .container {
   max-width: 700px;
   margin: 0 auto;
@@ -36,6 +102,7 @@ body {
 
 .menu-button {
   margin-left: 0.4rem;
+  cursor: pointer;
 }
 
 .title-main,
@@ -61,19 +128,35 @@ body {
   margin-top: 6rem;
 }
 
-.frontpage-image {
-  max-width: 100%;
-  height: 500px;
-  object-fit: contain;
+.bottom-button {
+  padding: 1rem 4rem;
+  background-color: #f4df20;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
 }
 
 .menu-bottom {
   text-align: center;
 }
 
-.bottom-button {
-  padding: 1rem 4rem;
-  background-color: #f4df20;
-  border: none;
-  border-radius: 1rem;
+/* ---------------------
+      PLACEHOLDERS  
+ ---------------------*/
+
+.image-placeholder {
+  height: 400px;
+  width: 100%;
+  background: #f4df20;
+}
+
+.text-placeholder {
+  text-align: center;
+  margin-top: 300px;
+  font-weight: 900;
+}
+
+.logo-placeholder {
+  text-align: center;
+  padding-top: 120px;
 }
